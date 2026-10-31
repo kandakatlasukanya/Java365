@@ -19,10 +19,10 @@ class Car extends Vehicle {
 public class Oct31 {
     public static void main(String[] args) {
 
-        Car c = new Car();
+        Car ca = new Car();
 
-        c.start();
-        c.drive();
-        c.stop();
+        ca.start();
+        ca.drive();
+        ca.stop();
     }
 }
