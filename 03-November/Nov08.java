@@ -14,7 +14,7 @@ class UPI extends Payment {
 class CreditCard extends Payment {
     @Override
     void pay() {
-        System.out.println("Payment through Credit Card");
+        System.out.println("Payment through Credit Card ");
     }
 }
 
