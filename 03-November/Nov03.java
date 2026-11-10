@@ -33,7 +33,7 @@ class Employee extends Person {
 public class Nov3 {
     public static void main(String[] args) {
 
-        Employee e = new Employee("Sukanya", 19 , 30000);
+        Employee e = new Employee("Sukanya ", 19 , 30000);
 
         e.display();
     }
