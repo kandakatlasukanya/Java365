@@ -12,7 +12,7 @@ interface Music {
 class Smartphone implements Camera, Music {
 
     public void takePhoto() {
-        System.out.println("Taking a photo");
+        System.out.println("Taking a photo ");
     }
 
     public void recordVideo() {
