@@ -7,7 +7,7 @@ class Payment {
 class UPI extends Payment {
     @Override
     void pay() {
-        System.out.println("Payment through UPI");
+        System.out.println("Payment through UPI ");
     }
 }
 
