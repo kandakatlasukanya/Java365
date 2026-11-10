@@ -8,7 +8,7 @@ interface UPI {
 class GooglePay implements UPI {
 
     public void pay(double amount) {
-        System.out.println("Payment using Google Pay: Rs." + amount);
+        System.out.println("Payment using Google Pay: Rs. " + amount);
     }
 
 }
