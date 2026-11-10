@@ -6,7 +6,7 @@ class Child extends Parent {
     int a = 20;
 
     void display() {
-        System.out.println("Parent field: " + super.a);
+        System.out.println("Parent field: "+ super.a);
         System.out.println("Child field: " + a);
     }
 }
